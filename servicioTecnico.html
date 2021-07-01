@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosServicios.css">
+    
+    <title>TiendaGAME</title>
+    </head>
+    <body>
+        
+        
+            
+        <header>
+          <div class="contenedor">
+
+                <h1>   TiendaGAME</h1><h1 class="icon-gamepad" id="logotipo"> </h1>
+              <input type="checkbox" id="menuBar">
+              <label class="icon-th-menu-outline" for="menuBar"></label>
+              <ul class="menu">
+                <li><a href="index.html">Inicio </a></li>
+                 <li><a href="tienda.html">Tienda </a>
+                     <ul>
+                        <li><a href="tienda.html#perifericos">Periféricos </a></li>
+                         <li><a href="tienda.html#motherboards">Motherboards </a></li>
+                         <li><a href="tienda.html#cpu">Procesadores </a></li>
+                         <li><a href="tienda.html#gpu">Placas de Video </a></li>
+                         <li><a href="tienda.html#mediospago">Medios de Pago </a></li>
+                     </ul>
+                </li>
+                <li><a href="servicios.html">Servicios </a>
+                  <ul>
+                         <li><a href="servicioTecnico.html">Servicio Técnico </a></li>
+                         <li><a href="armadoPc.html">Armado de PC´s </a></li>
+                     </ul>
+                    </li>
+                <li><a href="contacto.html">Contacto </a></li> 
+            </ul>
+             </div>
+            
+            </header>
+        
+        
+        
+            <center>
+            <main>
+                
+                <section id="banner">
+                    
+                    <img src="imagenes/banner2.jpg">
+                    
+                    <div class="textobanner">
+                        <h2>Solicitud de Servicio Técnico</h2>
+                       
+                    </div>
+                    
+                </section>
+                
+                <section class="categorias">
+                                        
+                     <div class="st">
+                            <img src="imagenes/reparacion.jpg">
+                            
+                           <h2>SERVICIO TÉCNICO</h2>
+                            <hr class="lineas">
+                         <p>Si ya enviaste el formulario, dentro de las siguientes 48hs hábiles, un especialista se pondrá en contacto con vos para confirmar el día de la visita.</p><br>
+                         <p>Si el producto lo adquiriste en nuesta tienda y no pasaron 12 meses desde el momento de la compra, tené la factúra o ticket a mano porque  el costo de la solución del problema pasa por cuenta nuestra!!!</p><br>
+                         <p>Si no estás seguro de que el cargador del equipo funciona correctamente, anotalo en la descrpición de la falla y pasanos el modelo del equipo, así el especialista se equipa con todo lo necesario para resolverte el problema en el momento </p>
+                        </div>
+                    
+                    
+                    <div class="formulario">
+                        <h3>Solictúd de Servicio Técnico</h3>
+                        
+         <form name="Miformulario" method="post" action="mailto:fernandodemaio@outlook.es">
+           
+             <input type="Text" placeholder="Apellido y Nombre" autofocus name="txt" size=23 >  
+             <input type="Text" placeholder="Dirección"  name="txt" size=23 >  
+             <input type="Text" placeholder="Teléfono"  name="txt" size=23 >         
+             <input type="Text" placeholder="Email" name="txt" size=23 >
+                
+             <div id="rbtn">
+                 <input type="radio" name="tipo" checked>Visíta a Domicilio  <input type="radio" name="tipo" >En local <input type="radio" name="tipo" > Asesoría Remota 
+                  
+                
+             </div>
+             <label>Seleccioná el día de la visita:  </label> <input type="date" name="fecha" id="calenadario">
+             <label>Seleccioná el margen de horario de visita </label><br> 
+            <input type="checkBox" name="chbox" id="chckbox" > <label>09:00hs a 13:00hs</label>
+             <input type="checkBox" name="chbox" id="chckbox" > <label>15:00hs a 19:00hs</label>
+                <br>      
+             <label>Seleccioná el tipo de equipo:</label>
+             <select>
+             <option>Notebook</option>
+             <option>Pc</option>
+             <option>LapTop</option>
+             <option>All in One</option>
+             <option>Servidor</option>
+             <option> RIG</option>              
+            </select>
+                  <br>
+            
+                    <label>Adquiriste el producto en nuestra tienda?  </label> <input type="checkBox" name="chbox" id="chckbox" >
+                       <textarea col=15 row=20 placeholder="Breve descripción de la falla del equípo..."></textarea>
+                        
+                 
+                   
+                           <input type="submit" value="Enviar" id="boton" >
+                    
+
+        </form>
+         
+                    </div>
+                    
+                </section>
+                
+            </main>
+        </center>
+         <footer>
+            <div class="contenedor">
+                
+                <div id="der">
+                    <h4>NOSOTROS</h4>
+                    <br>
+                    <p>Tienda dedicada a los accesorios y componenetes de computacíon y servicios a fines. Contamos con un laboratorio de primer nivel y muchos años de experiencia</p>
+                </div>
+                <div id="izq">
+                    <h4>PROMOCIONES</h4>
+                    <br>
+                    <p>¿Queres ser el primero en enterarte de nuestros descuentos y promociones? Completá tu email para recibir más info.</p>
+                    <input type="Text" placeholder="ejemplo@dominio.com" name="txt" size=23 id="correof">
+                    <input type="submit" value="SUSCRIBIRSE" id="botonf" >
+                    
+                </div>
+                <div id="enlaces">
+                    <ul>
+                    <li><a href="index.html">Inicio </a></li>
+                 <li><a href="tienda.html">Tienda </a>
+                </li>
+                <li><a href="servicios.html">Servicios </a>
+                                      </li>
+                <li><a href="">Contacto </a></li> 
+                    </ul>
+                    
+                </div>
+                <p class="copyr">TiendaGAME &copy; 2020</p>
+                <div class="redes">
+                   
+                    <a class="icon-whatsapp" href="#"></a>
+                     <a class="icon-facebook" href="#"></a>
+                    <a class="icon-instagram-with-circle" href="#"></a>
+                </div>
+             </div>
+            </footer>              
+        
+        
+    </body>
+</html>

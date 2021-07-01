@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosServicios.css">
+    
+    <title>TiendaGAME</title>
+    </head>
+    <body>
+        
+        
+            
+        <header>
+          <div class="contenedor">
+
+                <h1>   TiendaGAME</h1><h1 class="icon-gamepad" id="logotipo"> </h1>
+              <input type="checkbox" id="menuBar">
+              <label class="icon-th-menu-outline" for="menuBar"></label>
+              <ul class="menu">
+                <li><a href="index.html">Inicio </a></li>
+                 <li><a href="tienda.html">Tienda </a>
+                     <ul>
+                        <li><a href="tienda.html#perifericos">Periféricos </a></li>
+                         <li><a href="tienda.html#motherboards">Motherboards </a></li>
+                         <li><a href="tienda.html#cpu">Procesadores </a></li>
+                         <li><a href="tienda.html#gpu">Placas de Video </a></li>
+                         <li><a href="tienda.html#mediospago">Medios de Pago </a></li>
+                     </ul>
+                </li>
+                <li><a href="servicios.html">Servicios </a>
+                  <ul>
+                         <li><a href="servicioTecnico.html">Servicio Técnico </a></li>
+                         <li><a href="armadoPc.html">Armado de PC´s </a></li>
+                     </ul>
+                    </li>
+                <li><a href="contacto.html">Contacto </a></li> 
+            </ul>
+             </div>
+            
+            </header>
+        
+        
+        
+            <center>
+            <main>
+                
+                <section id="banner">
+                    
+                    <img src="imagenes/banner2.jpg">
+                    
+                    <div class="textobanner">
+                        <h2>Armá la PC que vos quieras!</h2>
+                       
+                    </div>
+                    
+                </section>
+                
+                <section class="categorias">
+                                        
+                     <div class="st">
+                            <img src="imagenes/armado.jpg" class="imgformular">
+                            
+                           <h2>EL ARTE DE ARMAR...</h2>
+                            <hr class="lineas">
+                         <p>Con este formulario vas a poder elegir las caracteristicas y componenetes de tu futura PC.</p><br>
+                         <p>Solo tenes que seleccionar los componenetes de las listas y un asesor se contactará con vos dentro de las 48hs hábiles para confirmar la compra y coordinar el envío.</p><br>
+                         <p>Si algún producto de los que elegiste no se encuentra en stock estás de suerte, porque nuestra política es "si no hay del componente que el cliente eligió, le colocamos uno mejor por el mismo precio!!!</p><br>
+                         <p>Con la compra de una PC armada a través del formulario, accedes a sorteos y descuentos exclusivos de TiendaGAME. </p>
+                        </div>
+                    
+                    
+                    <div class="formulario">
+                        <h3>ARMAMOS UN EQUIPO?</h3>
+                        
+         <form name="Miformulario" method="post" action="mailto:fernandodemaio@outlook.es">
+           
+             <input type="Text" placeholder="Apellido y Nombre" autofocus name="txt" size=23 >  
+             <input type="Text" placeholder="Dirección"  name="txt" size=23 >  
+             <input type="Text" placeholder="Teléfono"  name="txt" size=23 >         
+             <input type="Text" placeholder="Email" name="txt" size=23 >
+                           
+             <h3>Microprocesador.</h3>
+             <hr class="lineas">        
+             <label>Marca del procesador:</label>
+             <select>
+             <option>AMD</option>
+             <option>INTEL</option>              
+            </select>
+             
+                         
+             <label>Generación:</label>
+             <select>
+             <option>AMD-Ryzen2</option>
+             <option>AMD-Ryzen3</option>
+             <option>AMD-Ryzen5</option>
+             <option>INTEL-i3</option> 
+             <option>INTEL-i5</option>
+             <option>INTEL-i7</option>
+             <option>INTEL-ip</option>
+            </select>
+             
+             <label>N° de Núcleos:</label>
+             <select>
+             <option>2</option>
+             <option>4</option>
+             <option>6</option>
+             <option>8</option> 
+            </select>
+             <br>
+             
+              <h3>MotherBoard.</h3>
+             <hr class="lineas">
+             <label>Motherboar:</label>
+             <select>
+             <option>ASUS</option>
+             <option>ASROCK</option> 
+                 <option>MSI</option>
+            </select>
+             
+              <label>Serie del Mother:</label>
+             <select>
+             <option>Basic</option>
+             <option>Pro</option> 
+                 <option>Gamer</option>
+            </select><br>
+             
+              <h3>RAM.</h3>
+             <hr class="lineas">
+             <label>Memoria Ram:</label>
+             <select>
+             <option>Kingston</option>
+             <option>Crucial</option> 
+             <option>Markvision</option>
+             </select>  
+               
+                 <label>Cap:</label>
+             <select>
+             <option>8GB</option>
+             <option>16GB</option> 
+             <option>32GB</option>
+             </select><br>
+                 
+             <label>Cant:</label>
+             <select>
+             <option>1 Mod</option>
+             <option>2 Mod</option> 
+            </select>
+             <br> 
+             
+             <h3>Placa de Video</h3>
+             <hr class="lineas">
+                  <label>Memoria:</label>
+             <select>
+             <option>1 GB</option>
+             <option>2 GB</option> 
+             <option>3 GB</option>
+             <option>4 GB</option>
+             <option>6 GB</option>
+             <option>8 GB</option>
+            </select>
+             
+             <label>Tecnología:</label>
+             <select>
+             <option>DDR2</option>
+             <option>DDR3</option> 
+             <option>DDR4</option>
+             <option>DDR5</option>
+             <option>DDR6</option>
+            </select><br>
+            
+             <label>Que uso le vas a dar al equipo?  </label><br> <label>Gamer  </label><input type="checkBox" name="chbox" id="chckbox" >
+                                 <label>Estudio </label> <input type="checkBox" name="chbox" id="chckbox" >
+                    <label>Hogar/ Oficína </label> <input type="checkBox" name="chbox" id="chckbox" >
+                    <label>Diseño y Rederizados</label> <input type="checkBox" name="chbox" id="chckbox" >
+
+                    
+                        
+                 
+                   
+                           <input type="submit" value="Enviar" id="boton" >
+                    
+
+        </form>
+         
+                    </div>
+                    
+                </section>
+                
+            </main>
+        </center>
+          <footer>
+            <div class="contenedor">
+                
+                <div id="der">
+                    <h4>NOSOTROS</h4>
+                    <br>
+                    <p>Tienda dedicada a los accesorios y componenetes de computacíon y servicios a fines. Contamos con un laboratorio de primer nivel y muchos años de experiencia</p>
+                </div>
+                <div id="izq">
+                    <h4>PROMOCIONES</h4>
+                    <br>
+                    <p>¿Queres ser el primero en enterarte de nuestros descuentos y promociones? Completá tu email para recibir más info.</p>
+                    <input type="Text" placeholder="ejemplo@dominio.com" name="txt" size=23 id="correof">
+                    <input type="submit" value="SUSCRIBIRSE" id="botonf" >
+                    
+                </div>
+                <div id="enlaces">
+                    <ul>
+                    <li><a href="index.html">Inicio </a></li>
+                 <li><a href="tienda.html">Tienda </a>
+                </li>
+                <li><a href="servicios.html">Servicios </a>
+                                      </li>
+                <li><a href="">Contacto </a></li> 
+                    </ul>
+                    
+                </div>
+                <p class="copyr">TiendaGAME &copy; 2020</p>
+                <div class="redes">
+                   
+                    <a class="icon-whatsapp" href="#"></a>
+                     <a class="icon-facebook" href="#"></a>
+                    <a class="icon-instagram-with-circle" href="#"></a>
+                </div>
+             </div>
+            </footer>              
+        
+        
+    </body>
+</html>

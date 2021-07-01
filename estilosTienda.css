@@ -1,0 +1,83 @@
+.categorias{
+    
+    width:100% ;
+    height: auto;
+}
+
+
+.categorias .productos{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+
+.producto{
+   margin: 10px;
+   border: 1px solid #cccccc;
+   text-align: center;
+   width: 220px;
+    
+}
+
+.categorias descripcion{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.categorias .titulosP{
+    text-align: center;
+    font-size: 23px;
+    color:#252525;
+}
+
+.producto img{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 200px;
+    height: 180px;  
+}
+
+.producto article{
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+       
+}
+
+
+
+.btnComprar{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+#salto{
+    color:#ffffff;
+    background: #7799cc;
+
+}
+
+#mediospago, img{
+    
+    height: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+@media(min-width:1024px){
+     .categorias{
+         width: 1000px;
+    }
+}
+
+
+
